@@ -1,0 +1,26 @@
+ul.menu{
+  list-style: none;
+  li{
+    margin: 0;
+    
+    a{
+      text-decoration: none;
+    }
+    
+    ul.sousMenu{
+      list-style: none;
+      
+      li{
+        margin: 0;
+        
+        a{
+          text-transform: uppercase;
+          
+          &:hover{
+            text-transform: lowercase;
+          }
+        }
+      }
+    }
+  }
+}
