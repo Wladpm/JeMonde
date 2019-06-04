@@ -1,5 +1,11 @@
+body {
+  background: #000;
+}
+
 #navBar {
-  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   height: 10%;
   left: 0px;
@@ -142,11 +148,13 @@ a:hover {
 #appTitle {
   font-family: ;
   font-size: ;
+  color: #FFFFFF;
 }
 
 #appText {
   font-family: ;
   font-size: ;
+  color: #FFFFFF;
 }
 
 #bottomBar {
