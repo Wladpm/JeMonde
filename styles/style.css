@@ -139,6 +139,16 @@ a:hover {
   top: 0px;
 }
 
+#appTitle {
+  font-family: ;
+  font-size: ;
+}
+
+#appText {
+  font-family: ;
+  font-size: ;
+}
+
 #bottomBar {
   position: absolute;
   width: 100%;
