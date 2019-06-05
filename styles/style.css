@@ -219,3 +219,43 @@ a:hover {
   font-variant: small-caps;
   /* Gold */
 }
+
+/* Julien's part */
+
+.audiobutton{
+  z-index: 9;
+  display: block;
+  position: relative;
+  left: 25px;
+  top: 20px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#buttonmutesound {
+  color: red;
+  right: 0%;
+  z-index: 9;
+  position: absolute;
+  bottom: -17px;
+  background: transparent;
+  border: none;
+
+}
+
+#iconmute {
+  left: 50%;
+}
+
+#app {
+  background: transparent;
+  border: none;
+}
+
+#portrait{ 
+  width: 150%;
+  border:none;
+  left: 50%;
+  margin-top: 30px;
+}
