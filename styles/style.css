@@ -176,9 +176,8 @@ a:hover {
   font-weight: normal;
   font-size: 14px;
   line-height: 150%;
-/* or 21px */
-
-color: #FFFFFF;
+  /* or 21px */
+  color: #FFFFFF;
 }
 
 #bottomBar {
@@ -219,5 +218,4 @@ color: #FFFFFF;
   text-align: center;
   font-variant: small-caps;
   /* Gold */
-
 }
