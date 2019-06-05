@@ -152,15 +152,25 @@ a:hover {
 }
 
 #appTitle {
+  position: absolute;
   font-family: Poppins;
   font-style: normal;
   font-weight: 900;
   font-size: 28px;
   line-height: 42px;
   color: #FFFFFF;
+  width: 502px;
+  height: 90px;
+  left: 218px;
+  top: 147px;
 }
 
 #appText {
+  position: absolute;
+  width: 487px;
+  height: 235px;
+  left: 218px;
+  top: 267px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -188,4 +198,26 @@ color: #FFFFFF;
   border: 1.5px solid #FFFFFF;
   box-sizing: border-box;
   margin: 20px 0;
+}
+
+#GoldButton {
+  position: absolute;
+  width: 215px;
+  height: 54px;
+  left: 223px;
+  top: 556px;
+  border: 1.5px solid #E3A649;
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 150%;
+  /* or 19px */
+  align-items: center;
+  text-align: center;
+  font-variant: small-caps;
+  /* Gold */
+
 }
