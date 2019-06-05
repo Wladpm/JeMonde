@@ -1,5 +1,11 @@
-body {
-  background: #000;
+body {      
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #232323;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
 #navBar {
@@ -146,15 +152,23 @@ a:hover {
 }
 
 #appTitle {
-  font-family: ;
-  font-size: ;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 42px;
   color: #FFFFFF;
 }
 
 #appText {
-  font-family: ;
-  font-size: ;
-  color: #FFFFFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+/* or 21px */
+
+color: #FFFFFF;
 }
 
 #bottomBar {
