@@ -220,7 +220,7 @@ a:hover {
   /* Gold */
 }
 
-/* Julien's part */
+/* Player */
 
 .audioButton {
   z-index: 9;
@@ -232,7 +232,6 @@ a:hover {
   user-select: none;
 }
 
-
 #buttonMuteSound {
   color: red;
   right: 0%;
@@ -243,13 +242,16 @@ a:hover {
   border: none;
 }
 
-/* #iconMute {
-  left: 50%;
-} */
-
 #portrait {
   width: 150%;
   border:none;
   left: 50%;
   margin-top: 30px;
+}
+
+/* Icon */
+
+#iconMute {
+  height: 50px;
+  width: 50px;
 }
