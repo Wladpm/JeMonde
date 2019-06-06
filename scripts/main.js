@@ -1,5 +1,5 @@
 const lecteur = document.getElementById('lecteur')
-const buttonmute = document.getElementById('buttonmutesound')
+const buttonmute = document.getElementById('buttonMuteSound')
 const iconMute = document.getElementById('iconMute')
 
 buttonmute.addEventListener('click', () => {
