@@ -190,7 +190,7 @@ a:hover {
   text-align: center;
 }
 
-#bottomBar button {
+#bottomBar :first-child {
   position: relative;
   width: 246px;
   height: 70%;
@@ -222,16 +222,16 @@ a:hover {
 
 /* Julien's part */
 
-.audiobutton{
+.audiobutton {
   z-index: 9;
-  display: block;
-  position: relative;
+  position: absolute;
   left: 25px;
   top: 20px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
 }
+
 
 #buttonmutesound {
   color: red;
@@ -241,14 +241,13 @@ a:hover {
   bottom: -17px;
   background: transparent;
   border: none;
-
 }
 
 #iconmute {
   left: 50%;
 }
 
-#portrait{ 
+#portrait {
   width: 150%;
   border:none;
   left: 50%;
