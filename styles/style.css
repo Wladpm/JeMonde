@@ -1,3 +1,12 @@
+@media {
+  #menu {
+    border: none;
+  }
+}
+
+
+
+
 body {      
   margin: 0;
   padding: 0;
@@ -6,6 +15,8 @@ body {
   background: #000000;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 #navBar {
@@ -107,9 +118,10 @@ a:hover {
 }
   
 #menu {
-  display: block; 
+  display: block;
   position: fixed;
-  width: 35%;
+  width: 400px;
+  height: 250px;
   border-radius: 50%;
   left: 50%;
   top: 50%;
@@ -171,7 +183,7 @@ a:hover {
   background: transparent;
   margin: 1%;
 }
-}
+
 
 /* App page */
 
@@ -213,10 +225,12 @@ a:hover {
   box-sizing: border-box;
   border-radius: 40px;
   font-family: Roboto;
+  color: #FFFFFF;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
   line-height: 150%;
+  background: transparent;
   /* or 19px */
   align-items: center;
   text-align: center;
@@ -237,8 +251,9 @@ a:hover {
 }
 
 #buttonMuteSound {
-  color: red;
+  height: 10%;
   right: 0%;
+  top: -50%;
   z-index: 9;
   position: absolute;
   bottom: -17px;
@@ -255,28 +270,26 @@ a:hover {
 
 /* Contact page */
 
-.info {
-
-}
 
 #contactTitle {
+  position: relative;
   font-family: Poppins;
   font-style: normal;
   font-weight: 900;
   font-size: 28px;
   line-height: 42px;
   color: #FFFFFF;
-  width: 502px;
-  height: 90px;
-  left: 218px;
-  top: 147px;
+  width: 25%;
+  height: 10%;
+  left: 20%;
+  top: 13%;  
 }
 
 #contactText {
-  width: 487px;
-  height: 52px;
-  left: 218px;
-  top: 267px;
+  position: relative;
+  height: 20%;
+  left: 20%;
+  top: 45%;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -284,4 +297,59 @@ a:hover {
   line-height: 150%;
   /* or 21px */
   color: #FFFFFF;
+}
+
+.info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 20%;
+}
+
+.phone {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.mail {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.address {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+#sphere {
+  position: absolute;
+  width: 540px;
+  height: 572px;
+  left: 708px;
+  top: 40px;
+}
+
+#doc {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+#doc > a {
+  padding: 2%;
 }
