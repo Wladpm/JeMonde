@@ -109,12 +109,12 @@ a:hover {
 #menu {
   display: block; 
   position: fixed;
-  width: 300px;
+  width: 35%;
   border-radius: 50%;
   left: 50%;
   top: 50%;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 15%;
   border: 2px solid white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -161,13 +161,16 @@ a:hover {
   text-align: center;
 }
 
-#bottomBar :first-child {
+#bottomBar > #appButton {
   position: relative;
-  width: 246px;
-  height: 70%;
+  width: 20%;
+  height: 100%;
   border: 1.5px solid #FFFFFF;
   box-sizing: border-box;
-  margin: 20px 0;
+  color: white;
+  background: transparent;
+  margin: 1%;
+}
 }
 
 /* App page */
@@ -182,16 +185,15 @@ a:hover {
   color: #FFFFFF;
   width: 502px;
   height: 90px;
-  left: 218px;
-  top: 147px;
+  left: 20%;
+  top: 20%;
 }
 
 #appText {
   position: absolute;
-  width: 487px;
-  height: 235px;
-  left: 218px;
-  top: 267px;
+  height: 20%;
+  left: 20%;
+  top: 45%;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -203,10 +205,10 @@ a:hover {
 
 #GoldButton {
   position: absolute;
-  width: 215px;
-  height: 54px;
-  left: 223px;
-  top: 556px;
+  width: 15%;
+  height: 7%;
+  left: 20%;
+  top: 65%;
   border: 1.5px solid #E3A649;
   box-sizing: border-box;
   border-radius: 40px;
@@ -253,8 +255,11 @@ a:hover {
 
 /* Contact page */
 
+.info {
+
+}
+
 #contactTitle {
-  position: absolute;
   font-family: Poppins;
   font-style: normal;
   font-weight: 900;
@@ -268,9 +273,8 @@ a:hover {
 }
 
 #contactText {
-  position: absolute;
   width: 487px;
-  height: 235px;
+  height: 52px;
   left: 218px;
   top: 267px;
   font-family: Roboto;
