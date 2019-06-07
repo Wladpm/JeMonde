@@ -212,7 +212,7 @@ a:hover {
   width: 15%;
   height: 7%;
   left: 20%;
-  top: 65%;
+  top: 75%;
   border: 1.5px solid #E3A649;
   box-sizing: border-box;
   border-radius: 40px;
@@ -243,7 +243,7 @@ a:hover {
 }
 
 #buttonMuteSound {
-  height: 10%;
+  height: 200%;
   right: 0%;
   top: -50%;
   z-index: 9;
@@ -251,6 +251,11 @@ a:hover {
   bottom: -17px;
   background: transparent;
   border: none;
+}
+
+#iconMute {
+  width: 50%;
+  height: 50%;
 }
 
 #portrait {
@@ -356,8 +361,4 @@ a:hover {
 
 #doc > a {
   padding: 2%;
-}
-
-.icon {
-  
 }
