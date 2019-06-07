@@ -151,6 +151,27 @@ a:hover {
   top: 0px;
 }
 
+#bottomBar {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  left: 0px;
+  top: 90%;
+  background: #000000;
+  text-align: center;
+}
+
+#bottomBar :first-child {
+  position: relative;
+  width: 246px;
+  height: 70%;
+  border: 1.5px solid #FFFFFF;
+  box-sizing: border-box;
+  margin: 20px 0;
+}
+
+/* App page */
+
 #appTitle {
   position: absolute;
   font-family: Poppins;
@@ -178,25 +199,6 @@ a:hover {
   line-height: 150%;
   /* or 21px */
   color: #FFFFFF;
-}
-
-#bottomBar {
-  position: absolute;
-  width: 100%;
-  height: 10%;
-  left: 0px;
-  top: 90%;
-  background: #000000;
-  text-align: center;
-}
-
-#bottomBar :first-child {
-  position: relative;
-  width: 246px;
-  height: 70%;
-  border: 1.5px solid #FFFFFF;
-  box-sizing: border-box;
-  margin: 20px 0;
 }
 
 #GoldButton {
@@ -249,4 +251,33 @@ a:hover {
   margin-top: 30px;
 }
 
-/* Icon */
+/* Contact page */
+
+#contactTitle {
+  position: absolute;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 42px;
+  color: #FFFFFF;
+  width: 502px;
+  height: 90px;
+  left: 218px;
+  top: 147px;
+}
+
+#contactText {
+  position: absolute;
+  width: 487px;
+  height: 235px;
+  left: 218px;
+  top: 267px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  color: #FFFFFF;
+}
