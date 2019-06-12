@@ -274,8 +274,7 @@ a:hover {
 
 #contactTitle {
   position: relative;
-  font-family: Poppins;
-  font-style: normal;
+  font-family: 'Poppins';
   font-weight: 900;
   font-size: 28px;
   line-height: 42px;
