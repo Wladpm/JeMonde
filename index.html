@@ -7,6 +7,7 @@
     <title>JeMonde</title>
     <link rel="stylesheet" href="styles/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="jquery.vide.js"></script>
 </head>
@@ -17,6 +18,7 @@
     <div id="menuToggle">
           
       <input type="checkbox" />
+      
 
         <span></span>
         <span></span>
@@ -27,21 +29,23 @@
           <div>
           
             <a href="#"><li>JeMonde</li></a>
-            <a href="pages/application.html"><li>Application</li></a>
+            <a target="_blank" href="https://jemonde.netlify.com/"><li>Application</li></a>
             <a href="#"><li>Portraits</li></a>
             <a href="pages/contact.html"><li>Contact</li></a>
           
           </div>
         
         </ul>
+        <!-- <div class="bgMenuOpen"></div> -->
     
       </div>
+      
   
     </div>
     
     <div id="link">
     
-      <span><a class="link" href="https://franceartdesign.wixsite.com/maudlc">maud-lc.com</a></span>
+      <span>Visiter <a class="link" href="https://franceartdesign.wixsite.com/maudlc">maud-lc.com</a></span>
     
     </div>
 
@@ -49,21 +53,22 @@
     
     <div id="bottomBar"> 
       
-      <button id="appButton"><img id="" src="images/motif_creer_portrait.png" alt="">Créez votre portrait</button> 
+      <div id="appButton">
+         <p><a target="_blank" href="https://jemonde.netlify.com/">Créez votre portrait</a></p>
+        <img src="images/cta-landing.png" alt="">
+      </div> 
 
       <audio src="JEMONDE_Trailer.mp3" id="lecteur"></audio>
-
-      <div class="audioButton"></div>
-    
+      <!-- <div class="audioButton"></div> -->
       <button id="buttonMuteSound">
-      
-      <img id="iconMute" src="images/mute.png" alt="">
-      
+        <img id="iconMute" src="images/mute.png" alt="">
       </button>
     
     </div>
   
   </div>
+
+  
 
   <script src="scripts/main.js"></script>
 </body>
