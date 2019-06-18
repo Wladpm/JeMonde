@@ -4,12 +4,20 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JeMonde</title>
+    <title>JEMONDE</title>
     <link rel="stylesheet" href="styles/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="jquery.vide.js"></script>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -28,9 +36,9 @@
           
           <div>
           
-            <a href="#"><li>JeMonde</li></a>
+            <a href="https://www.jemonde.fr/index.html"><li>JEMONDE</li></a>
             <a target="_blank" href="https://jemonde.netlify.com/"><li>Application</li></a>
-            <a href="#"><li>Portraits</li></a>
+            <a target="_blank" href="https://jemonde.netlify.com/gallery"><li>Portraits</li></a>
             <a href="pages/contact.html"><li>Contact</li></a>
           
           </div>
@@ -54,8 +62,8 @@
     <div id="bottomBar"> 
       
       <div id="appButton">
-         <p><a target="_blank" href="https://jemonde.netlify.com/">Créez votre portrait</a></p>
-        <img src="images/cta-landing.png" alt="">
+         <p><a id="cta-link" target="_blank" href="https://jemonde.netlify.com/">Créez votre portrait</a></p>
+        <img id="cta-land" src="images/cta-landing.png" alt="">
       </div> 
 
       <audio src="JEMONDE_Trailer.mp3" id="lecteur"></audio>
